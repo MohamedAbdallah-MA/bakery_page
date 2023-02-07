@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.-coordinates {
+    /* display: inline-block; */
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+body {
+    font-family: 'Alegreya', serif;
+}
+/* start navbar */
+
+.nav {
+    background-color: transparent;
+    
+}
+.navImg{
+    /* background-color: darkorange; */
+    width: 20%;
+    float: left;
+    margin: 20px 150px 10px 90px;
+}
+.navImg img{
+    width: 80%;
+    
+}
+.navContent {
+    float: left;
+    color: #e0dcd2;
+    /* background-color: blue; */
+}
+
+.navContent a {  
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navContent a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navlist {
+    list-style-type: none;
+    float: left;
+    margin: 35px 20px ;
+    font-size: 18px;
+}
+.clr {
+    clear: both;
+}
+/* end navbar  */
+
+/* Start moon page */
+
+/* end of moon page */
+
+.moondiv {
+    background: linear-gradient(#200016 , #10001f);
+    height: 100vh;
+    
+}
+.moonpage {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.moonpage img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#moon {
+    mix-blend-mode: screen;
+}
+
+
+/* start Home bage */
+.home {
+    /* background-color: tomato; */
+    text-align: center;
+    height: 100vh;
+    font-family: 'Alegreya', serif;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100%  100%;
+    color: white;
+}
+.homeContent{
+    display: inline-block;
+    /* background-color: rgb(179, 0, 255); */
+    margin-top: 135px ;
+    width: 750px;
+    padding-bottom: 10px ;
+}
+
+.cbtn1 , .cbtn2 {
+    display: inline-block;
+}
+
+.phead {
+    font-size: 22px;
+    margin-bottom: 5px ; 
+}
+.homeContent h1{
+    font-size: 76px;
+    margin-bottom: 18px;
+    /*  */
+}
+.home-description{
+    font-size: 24px;
+    margin: 10px 0px 20px;
+}
+.homebtn {
+    margin-top: 30px;
+    
+
+}
+.btn2 {
+    
+    padding : 15px 28px ;
+    margin-bottom : 12px ;
+    background-color: transparent;
+    color: white;
+    border-color: #fff ;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.btn1 {
+    padding : 15px 28px ;
+    background-color: #8e7754;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+}
+/* end home page */
+
+/*  start about us page */
+
+.aboutus{
+    
+    /* background-color: tomato; */
+    height: 100vh;
+}
+.aboutimg {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 200px 0px 0px 60px;
+    
+}
+.aboutimg img {
+    width : 76% ;
+}
+.aboutContent {
+    width: 40%;
+    /* background-color: chartreuse; */
+    float : left;
+    margin-top: 100px;
+    margin: 225px 0px 0px 0px;
+    color: #686868;
+}
+.aboutContent h2 {
+
+    color: black;
+    margin-bottom: 25px;
+    font-size : 32px ;
+    font-weight: 300;
+
+}
+.aboutContent p {
+    font-size: 18px;
+    
+    
+}
+.aboutContent ul {
+    list-style-type: none;
+    padding: 10px;
+}
+.aboutlist {
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* End Home page */
+
+/* start location page */
+
+.location {
+    /* background-color: tomato; */
+    height: 100vh ;
+    /* margin-top: 50px; */
+}
+
+.locationimg {
+    width: 50%;
+    float: right;
+    text-align: center;
+    margin-top: 200px;
+}
+.locationimg img {
+    width : 80%;
+}
+.locationContent {
+    /* background-color: chartreuse; */
+    width: 40% ;
+    float: right;
+    margin-top: 220px;
+    padding-left: 25px;
+}
+.locationContent h2 {
+    font-size: 32px ;
+    color: black;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.locationContent p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #686868;
+}
+
+/* end location page */
+
+/* start store page */
+.shop {
+    /* background-color: tomato; */
+    height: 100vh;
+}
+.shopdescription {
+    /* background-color: chartreuse; */
+    text-align: center;
+    overflow: auto;
+}
+.shopdescription h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.shopdescription p {
+    color: #888;
+    font-size: 17px;
+    margin: 20px auto;
+
+}
+.products {
+    margin: auto 40px;
+}
+.productcon {
+    width: 33.3%;
+    text-align: center;
+    padding: 20px;
+    /* margin-top: 40px; */
+    float: left;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    
+}
+.product {
+    /* display: inline-block; */
+   padding-top: 20px ;
+   padding-bottom: 20px;
+    background-color: rgb(213, 213, 213);
+    box-shadow: 0 0 20px 2px rgb(0, 0, 0, .1);
+   transition: 1s;
+
+}
+.product:hover {
+    transform:scale(1.1);
+    z-index: 2;
+}
+.product img {
+    width : 80% ;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.product h4 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.product p {
+    font-size: 17px;
+    color: #686868;
+}
+
+/* end store page */
+
+/* start contact page */
+    .contact {
+        /* background-color: tomato; */
+        height: 100vh;
+        
+
+    }
+    .contactimg {
+        width: 50%;
+        float: right;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .contactimg img{
+        width: 68%;
+    }
+    .contactinfo {
+        width: 45%;
+        /* background-color: chartreuse; */
+        float: right;
+        margin: 170px 0px 0px 35px;
+
+    }
+    .contactinfo h2 {
+        font-weight: 400;
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    
+    .contactinfo p {
+        font-size: 17px;
+        color: #686868;
+        margin-bottom: 20px;
+    }
+    .contactlist {
+        list-style-type: none;
+        color: #686868;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    
+/* end contact page */

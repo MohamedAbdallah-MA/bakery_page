@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+/* END OF * */
+
+/* START O NAV BAR */
+
+
+.nav {
+    /* background-color: rgb(1, 229, 39); */
+    background-color: #17b978    ;
+    
+}
+.navImg{
+    /* background-color: darkorange; */
+    width: 20%;
+    float: left;
+    margin: 20px 150px 10px 90px;
+}
+.navImg img{
+    width: 80%;
+    
+}
+.navContent {
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: #e0dcd2;
+    
+}
+
+.navContent a {  
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navContent a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.navlist {
+    list-style-type: none;
+    float: left;
+    margin: 35px 20px ;
+    font-size: 18px;
+}
+
+
+ /* END OF NAVBAR */
+ 
+  /* START OF REGISTERATION HOME */
+
+
+  .loginhome {
+    /* background-color: tomato; */
+    height: 100vh;
+    text-align: center;
+}
+
+.logincontainer 
+{
+    margin-top: 100px;
+}
+
+.loginhead h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.loginhcontent {
+    font-size: larger;
+    font-weight: 600;
+}
+.loginhcontent a{
+    color: rgb(78, 76, 76);
+    text-decoration: none;
+}
+.loginhcontent a:hover{
+    color: #17b978;
+    text-decoration: none;
+}
+.loginform {
+    display: inline-block;
+    width: 750px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: rgba(207, 207, 207, 0.556);
+}
+.formgroup input{
+    margin: 15px auto;
+    width: 648px;
+    height: 52px;   
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    border: 0px ;
+    
+}
+.rs {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: right;
+}
+.rs input {
+    margin-top: 20px;
+    width: 168px;
+    height: 52px;
+    /* padding: 15px 25px; */
+    border-radius: 30px;
+    border: 1px solid #17b978 ;
+    background-color: #17b978;
+    color: #ffff;
+    font-weight: 700;
+}
+.rs input:hover {
+    
+    border: 1px solid #17b978 ;
+    background-color: #ffffff;
+    color: #17b978;
+    font-weight: 700;
+}
